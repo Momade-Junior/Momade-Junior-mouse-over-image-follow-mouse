@@ -1,6 +1,6 @@
 <style>
 
-* {
+/* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,8 +32,10 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
+}*/
+body{
+  font-family: sans-serif;
 }
-
 a {
   text-decoration: none;
   font-size: 3rem;
@@ -44,14 +46,12 @@ a {
   margin: .5rem 0;
   z-index: 2;
   padding: 15px 30px 15px 90px;
-  text-shadow: 3px 5px 10px rgba(255,255,255,1);
 }
 
 a:hover h1 {
   transition: ease .5s all;
   padding-left: 1rem;
   color: #ccc;
-  text-shadow: 3px 5px 10px rgba(0,0,0,1);
 }
 
 a:hover .follow-img {
@@ -74,21 +74,21 @@ a:hover .follow-img {
 
 <div>
   <a href="#">
-    <h1>Link 1</h1>
+    <h4>Link 1</h4>
     <img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dWklMjB1eHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="img-cover" class="follow-img">
   </a>
 </div>
 
 <div>
   <a href="#">
-    <h1>Link 2</h1>
+    <h4>Link 2</h4>
     <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="img-cover" class="follow-img">
   </a>
 </div>
 
 <div>
   <a href="#">
-    <h1>Link 3</h1>
+    <h4>Link 3</h4>
     <img src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="img-cover" class="follow-img">
   </a>
 </div>
@@ -96,7 +96,7 @@ a:hover .follow-img {
 
 <div>
   <a href="#">
-    <h1>Link 3</h1>
+    <h4>Link 3</h4>
     <img src="https://images.unsplash.com/photo-1613909207039-6b173b755cc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1247&q=80" alt="img-cover" class="follow-img">
   </a>
 </div>
@@ -117,4 +117,3 @@ document.addEventListener('mousemove', (e) => {
 });
 
     </script>
-    
